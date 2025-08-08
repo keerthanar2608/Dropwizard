@@ -1,4 +1,6 @@
 # Dropwizard
+<pre>
+
 Step 1: -`build.gradle.kts`:
   Import all required dependencies
   Add Application in Plugin
@@ -24,3 +26,4 @@ Step 3 -`src/main/kotlin/resources`:
            This config file will contain :
                        type 
                        port
+</pre>
