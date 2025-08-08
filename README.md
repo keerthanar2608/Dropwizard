@@ -1,13 +1,13 @@
 # Dropwizard
-<pre>
 
-Step 1: -`build.gradle.kts`:
+
+## Step 1: -`build.gradle.kts`:
   Import all required dependencies
   Add Application in Plugin
   Create Application with mainClass.set("ApplicationKt")
 
 
-Step 2 " -`src/main/kotlin`:
+## Step 2 " -`src/main/kotlin`:
     -`src/main/kotlin/Attendance.kt`
           This file should contain data class which consists of employeeId , CheckIn , CheckOut
     -`src/main/kotlin\AttendanceManager.kt`:
@@ -21,9 +21,9 @@ Step 2 " -`src/main/kotlin`:
     -`src/main/kotlin/AttendanceServiceApp.kt`:
           This AttendanceServiceApp is the Application file which is of type AttendanceConfiguration
 
-Step 3 -`src/main/kotlin/resources`:
+## Step 3 -`src/main/kotlin/resources`:
     -`src/main/kotlin/resources/config.yml`:
            This config file will contain :
                        type 
                        port
-</pre>
+
